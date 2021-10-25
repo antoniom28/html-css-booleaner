@@ -1,24 +1,21 @@
-#pattern{
+/*Logo della scritta*/
+#logo{
     background-image: url(img/pattern.png);
-    background-color: hsl(0, 100%, 50%);
+    background-color: hsl(212, 96%, 56%);
     width: auto;
     height: 180px;
 }
 
-#logo{
-    background: url(img/logo.svg) no-repeat;
-    width: 200px;
-    height: 50px;
-}
-
+/*Immagine sopra alla pagina*/
 header img{
-    background-color: rgba(189, 92, 2, 0.85);
+    background-color: rgba(21, 107, 206,0.85);
     width: 260px;
     height: 65px;
     margin-top: 94px;
     margin-left: 10px;
 }
 
+/*Font dei titoli*/
 h1{
     font-size: 40px;
     margin: 0px;
@@ -26,10 +23,10 @@ h1{
     
 }
 
+/*Intestazioni sotto al titolo*/
 #thebooleaner{
-    color: hsl(0, 100%, 50%);
+    color: hsl(212, 96%, 56%);
     font-family: fantasy;
-    
 }
 #scritto{
     color:gray;
@@ -41,54 +38,59 @@ h1{
     font-family: cursive;
 }
 
-#prima{
-    width: 500px;
-    height:400px;
-    padding-right: 320px;
+/*Prime due foto*/
+#primafoto{
+    width: 714px;
+    height:450px;
 }
-#seconda{
-    width: 500px;
-    height:400px;
+#secondafoto{
+    width: 615px;
+    height:450px;
 }
 
+/*font della scritta sotto le prime due foto*/
 #duefoto span{
     font:15px;
     font-variant-caps: titling-caps;
 }
 
+/*Lista*/
 #listapuntata1 ul{ 
     padding-inline-start:17px;
 }
 
+/*Tabella*/
+table{
+    border-spacing: 0px;
+    padding-bottom: 25px;
+}
 
 #tabella1 #riga1{
-    background-color: rgb(151, 6, 6);
+    background-color: steelblue;
 }
 
-table{
+#riga1{
     color:white;
 }
-
-#riga3{
-    color:rgb(0, 0, 0);
-}
 .colonna1,.colonna2{
-    padding-right: 200px;
+    width: 300px; 
 }
 
 #riga2,#riga4{
-    background-color: rgb(97, 15, 46);
+    background-color: rgb(143, 214, 255);
 }
 
 div{
     padding-bottom: 5px;
 }
 
+/*Scritta sopra le ultime due foto*/
 footer strong{
     color:rgb(90, 90, 90);
     font-size: 15px;
 }
 
+/*Testo sulle ultime due immagini*/
 .testo1 {
     position: relative;
     font-family: fantasy;
@@ -98,6 +100,7 @@ footer strong{
     color: rgb(255, 255, 255);
   }
 
+  /*Evidenzia testo*/
   .evidenziato{
-      background-color: rgba(255, 196, 0, 0.938);
+      background-color: rgba(255, 255, 0, 0.527);
   }
