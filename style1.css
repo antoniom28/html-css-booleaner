@@ -6,6 +6,18 @@
     height: 180px;
 }
 
+/*Centratura*/
+section div,footer{
+  margin: 0 auto;
+  width: 85%;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 /*Immagine sopra alla pagina*/
 header img{
     background-color: rgba(21, 107, 206,0.85);
@@ -20,7 +32,6 @@ h1{
     font-size: 40px;
     margin: 0px;
     margin-top:10px;
-    
 }
 
 /*Intestazioni sotto al titolo*/
@@ -40,12 +51,10 @@ h1{
 
 /*Prime due foto*/
 #primafoto{
-    width: 714px;
-    height:450px;
+    height: 410px;
 }
 #secondafoto{
-    width: 615px;
-    height:450px;
+    height: 410px;
 }
 
 /*font della scritta sotto le prime due foto*/
@@ -81,7 +90,7 @@ table{
 }
 
 div{
-    padding-bottom: 5px;
+    padding-bottom: 25px;
 }
 
 /*Scritta sopra le ultime due foto*/
